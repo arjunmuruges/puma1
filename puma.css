@@ -1,0 +1,510 @@
+body
+{
+   margin: 0; 
+   padding: 0;
+   /* color: #fff; */
+}
+.container h3
+{
+    text-align: center;
+}
+.flex_container
+{
+    display: flex;  
+    overflow-x: hidden;
+
+}
+.flex_container .anchor1,.anchor2,.anchor3,.anchor4
+{
+    margin: 5px;
+}
+.flex_container img
+{
+    width: 330px;
+    height: 350px;
+}
+.flex_container .anchor1 a
+{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.flex_container .anchor1 a span
+{
+    margin-left: 30px;
+
+}
+.flex_container .anchor2 a
+{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.flex_container .anchor2 a span
+{
+    margin-left: 90px;
+}
+.flex_container .anchor3 a
+{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.flex_container .anchor3 a span
+{
+    margin-left: 150px;
+
+}
+.flex_container .anchor4 a
+{
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.flex_container .anchor4 a span
+{
+    margin-left: 160px;
+}
+
+.Photos
+{
+    margin-top: 20px;
+}
+
+/* photo1 starts */
+.photo1
+{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    position: relative;
+}
+.photo1 .content
+{
+    /* border: 1px solid blue; */
+    margin-right: 800px;
+    position: absolute;
+    top: 200px;
+    left: 130px;
+    padding: 25px;
+}
+.photo1 .content a button
+{
+    background: black;
+    color: #fff;
+    padding: 8px;
+    font-size:smaller;
+    cursor: pointer;
+}
+.photo1 .content a button:hover
+{
+    opacity: 0.8;
+}
+/* photo1 ends */
+
+/* photo2 starts */
+
+.photo2
+{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    position: relative;
+}
+.photo2 .content
+{
+    /* border: 1px solid blue; */
+    margin-right: 800px;
+    position: absolute;
+    top: 180px;
+    left: 130px;
+    padding: 25px;
+}
+.photo2 .content a button
+{
+    background: black;
+    color: #fff;
+    padding: 8px;
+    font-size:smaller;
+    cursor: pointer;
+}
+.photo2 .content a button:hover
+{
+    opacity: 0.8;
+}
+/* photo2 ends */
+
+/* photo3 starts */
+
+.photo3
+{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    position: relative;
+}
+.photo3 .content
+{
+    /* border: 1px solid blue; */
+    margin-right: 300px;
+    position: absolute;
+    top: 130px;
+    left: 580px;
+    padding: 25px;
+    color: #fff;
+}
+.photo3 .content a button
+{
+    background: #FFF;
+    color:black;
+    padding: 5px;
+    font: size 8px;
+    cursor: pointer;
+    border: 3px solid black;
+}
+.photo3 .content a button:hover
+{
+    opacity: 0.8;
+}
+/* photo3 ends */
+
+/* photo4 starts */
+.photo4
+{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    position: relative;
+}
+.photo4 .content
+{
+    /* border: 1px solid blue; */
+    margin-right: 400px;
+    position: absolute;
+    top: 200px;
+    left: 80px;
+    padding: 25px;
+    color: #FFF;
+}
+.photo4 .content a button
+{
+    background: white;
+    color:black;
+    padding: 5px;
+    font: size 8px;
+    cursor: pointer;
+    border: none;
+   
+}
+.photo4 .content a button:hover
+{
+    opacity: 0.8;
+}
+/* photo4 ends */
+
+/* photo5 starts */
+.photo5
+{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    position: relative;
+}
+.photo5 .content
+{
+    /* border: 1px solid blue; */
+    margin-right: 800px;
+    position: absolute;
+    top: 200px;
+    left: 130px;
+    padding: 25px;
+    color: #FFF;
+}
+.photo5 .content a button
+{
+    background: #FFF;
+    color: black;
+    padding: 5px;
+    font: size 8px;
+    cursor: pointer;
+    border: none;
+}
+.photo5 .content a button:hover
+{
+    opacity: 0.8;
+}
+
+/* photo5 ends */
+
+@media only screen and (max-width:600px){
+    
+    .container h3
+    {
+        text-align: center;
+        margin-left: 150px;
+    
+    }
+    .flex_container
+    {
+         display:flex;  
+        overflow-x: scroll;
+        width:1200px; 
+        gap:1rem;
+    }
+    .flex_container img
+    {
+        width: 590px;
+        height: 450px;
+        margin-left: -20px;
+    }
+    .flex_container .anchor1 a
+    {
+        text-decoration: none;
+        color: black;
+        font-size:large;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight:bolder;
+        font-display: bold;
+    }
+    .flex_container .anchor1 a span
+    {
+        /* margin-left: 5px; */
+        /* line-height: 5; */
+        /* font-size: .875rem;
+        line-height: 1.125rem;
+        margin-left:8rem;
+        gap:10rem; */
+        margin-left: 6rem;
+        line-height: 3;
+    }
+
+    .flex_container .anchor2 a
+    {
+        text-decoration: none;
+        color: black;
+        font-size:large;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight:bolder;
+        text-align: left;
+    }
+    .flex_container.anchor2 a span
+    { 
+        
+        margin-left: 6rem;
+        line-height: 5;
+        
+    }
+    .flex_container .anchor3 a
+    {
+        text-decoration: none;
+        color: black;
+        font-size:large;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight:bolder;
+        text-align: left;
+    }
+    .flex_container .anchor3 a span
+    {
+        margin-left: 6rem;
+        line-height: 5;
+    }
+
+
+    .flex_container.anchor4 a
+    {
+        text-decoration: none;
+        color: black;
+        font-size:large;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight:bolder;
+        text-align: left;
+    }
+    .flex_container.anchor4 a span
+    {
+        margin-left: 6rem;
+        line-height: 5;
+    }
+
+
+
+
+
+
+    /* photos section  */
+    .photo1
+    {
+        height: 700px;
+        width: 590px;
+        /* border: 1px solid red; */
+        margin-left: -10px;
+    }
+
+    .photo1 img{
+        position: relative;
+        right: 800px;
+    }
+    .photo1 .content
+    {
+        /* border: 1px solid blue; */
+        position: absolute;
+        top: 500px;
+        left: 130px;
+        padding-right: 30px;
+        width: 250px;
+        text-align: center;
+        /* color:blue; */
+    }
+   
+
+    /* photos section  */
+    .photo2
+    {
+        height: 700px;
+        width: 590px;
+        /* border: 1px solid red; */
+        margin-left: -10px;
+    }
+
+    .photo2 img{
+        position: relative;
+        right: 800px;
+    }
+    .photo2 .content
+    {
+        /* border: 1px solid blue; */
+        position: absolute;
+        top: 500px;
+        left: 130px;
+        padding-right: 30px;
+        width: 250px;
+        text-align: center;
+    }
+
+    /* photos section  */
+    .photo3
+    {
+        height: 700px;
+        width: 590px;
+        /* border: 1px solid red; */
+        margin-left: -10px;
+    }
+
+    .photo3 img{
+        position: relative;
+        right: 800px;
+        top: 30px;
+        left: 10px;
+        
+    }
+    .photo3 .content
+    {
+        /* border: 1px solid blue; */
+        position: absolute;
+        top: 500px;
+        left: 130px;
+        padding-right: 30px;
+        width: 250px;
+        text-align: center;
+        color: black;
+    }
+    .photo3 .content a button
+    {
+    background:black;
+    color: white;
+    padding: 5px;
+    font: size 8px;
+    cursor: pointer;
+    border: none;
+    }
+   
+     /* photos section  */
+     .photo4
+     {
+         height: 700px;
+         width: 590px;
+         /* border: 1px solid red; */
+         margin-left: -10px;
+     }
+ 
+     .photo4 img{
+         position: relative;
+         right: 800px;
+     }
+     .photo4 .content
+     {
+         /* border: 1px solid blue; */
+         position: absolute;
+         color:black;
+         top: 500px;
+         left: 130px;
+         padding-right: 30px;
+         width: 250px;
+         text-align: center;
+         
+     }
+     .photo4 .content a button:hover
+     {
+        opacity: 0.6;
+        background-color:white;
+        border: black;
+     }
+        
+     .photo4 .content a button
+     {
+     background:black;
+     color: white;
+     padding: 5px;
+     font: size 8px;
+     cursor: pointer;
+     border: none;
+     }
+    
+     
+    /* photos section  */
+    
+    .photo5
+    {
+        height: 700px;
+        width: 590px;
+        /* border: 1px solid red; */
+        margin-left: -10px;
+    }
+
+    .photo5 img{
+        position: relative;
+        right: 800px;
+    }
+    .photo5 .content
+    {
+        /* border: 1px solid blue; */
+        position: absolute;
+        top: 500px;
+        left: 130px;
+        padding-right: 30px;
+        width: 250px;
+        text-align: center;
+        color: black;
+    }
+    .photo5 .content a button:hover
+     {
+        opacity: 0.6;
+        background-color:white;
+        border: black;
+     }
+        
+     .photo5 .content a button
+     {
+     background:black;
+     color: white;
+     padding: 5px;
+     font: size 8px;
+     cursor: pointer;
+     border: none;
+     }    
+
+    
+
+ }
